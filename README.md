@@ -31,7 +31,8 @@ The `mentorship.json` file is a valid JSON file that details the project and men
         { 
             "name": "Dave Walk",
             "email": "daviddwalk@gmail.com",
-            "url": "http://davewalk.net"
+            "url": "http://davewalk.net",
+            "github": "davewalk"
         }
     ],
     "mentorship": {
@@ -44,6 +45,7 @@ The `mentorship.json` file is a valid JSON file that details the project and men
                 "name": "John Doe",
                 "email": "johndoe@gmail.com",
                 "url": "http://johndoe.com",
+                "github": "johndoe",
                 "count": 2
             }
         ]
@@ -74,7 +76,7 @@ Like `langs` above, this is intentionally vague so as to handle as many use case
 A list of keywords about the application for discovery on the Mentorsup website.
 
 #### authors [array]
-An array of author objects describing the authors of this project. `name` is the only required key/value but `email` and `url` will also be included on the Mentorsup website if they exist. You may also want to include social media details here if you accept feedback via those mediums (see mentorship terms below).
+An array of author objects describing the authors of this project. `github`, for the person's GitHub username, is the only required key/value but `email`, `url` and `name` will also be included on the Mentorsup website if they exist. You may also want to include social media details here if you accept feedback via those mediums (see mentorship terms below).
 
 #### mentorship [object]
 Describes the details of the mentorship opportunity. Must include `terms` and `mentors` values.
