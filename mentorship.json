@@ -1,0 +1,23 @@
+{
+    "name": "mentorsup",
+    "description": "Mentorsup is a new way for fledging developers to get mentorship on their GitHub repos and experienced developers to give back",
+    "repo": "http://github.com/davewalk/mentorsup",
+    "langs": ["python", "CSS", "HTML", "JavaScript"],
+    "libraries": ["django"],
+    "keywords": ["mentorship", "learning", "teaching", "software development"],
+    "authors": [
+        { 
+            "name": "Dave Walk",
+            "email": "daviddwalk@gmail.com",
+            "url": "http://davewalk.net",
+            "github": "davewalk"
+        }
+    ],
+    "mentorship": {
+        "terms": {
+            "mediums": ["issues", "email"],
+            "guidelines": "All feedback must be constructive. Please keep in mind that while I have used Django a bit in the past this will be my first full Django project."
+        },
+        "mentors": []
+    }
+}
